@@ -51,7 +51,7 @@ I know.
 Skipping the Tests
 =======================================
 
-The tests are very valuable, but also time-consuming because they depoloy to app servers. If
+The tests are very valuable, but also time-consuming because they deploy to app servers. If
 you're just pulling in someone's already-tested changes. To skip the tests, just build like this:
 
     mvn clean install -Darchetype.test.skip=true
